@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1D81E921DBB0E20091F786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D81E821DBB0E20091F786 /* Assets.xcassets */; };
+		3B1D822821DBB30E0091F786 /* KlineCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81F621DBB30E0091F786 /* KlineCalculate.swift */; };
+		3B1D822921DBB30E0091F786 /* KLineIndexCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81F721DBB30E0091F786 /* KLineIndexCalculate.swift */; };
+		3B1D822A21DBB30E0091F786 /* KlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81F921DBB30E0091F786 /* KlineButton.swift */; };
+		3B1D822B21DBB30E0091F786 /* NSVIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81FB21DBB30E0091F786 /* NSVIew+Extension.swift */; };
+		3B1D822C21DBB30E0091F786 /* StringTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81FC21DBB30E0091F786 /* StringTools.swift */; };
+		3B1D822D21DBB30E0091F786 /* NSColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81FD21DBB30E0091F786 /* NSColor+Extension.swift */; };
+		3B1D822E21DBB30E0091F786 /* NSFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81FE21DBB30E0091F786 /* NSFont.swift */; };
+		3B1D822F21DBB30E0091F786 /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D81FF21DBB30E0091F786 /* NSBezierPath.swift */; };
+		3B1D823021DBB30E0091F786 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820021DBB30E0091F786 /* String.swift */; };
+		3B1D823121DBB30E0091F786 /* KlineCurrentPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820221DBB30E0091F786 /* KlineCurrentPriceView.swift */; };
+		3B1D823221DBB30E0091F786 /* KlineVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820321DBB30E0091F786 /* KlineVerticalView.swift */; };
+		3B1D823321DBB30E0091F786 /* KlinePriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820421DBB30E0091F786 /* KlinePriceView.swift */; };
+		3B1D823421DBB30E0091F786 /* MenuConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820621DBB30E0091F786 /* MenuConfig.swift */; };
+		3B1D823521DBB30E0091F786 /* KlineMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820721DBB30E0091F786 /* KlineMenu.swift */; };
+		3B1D823621DBB30E0091F786 /* AbuKlineMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820921DBB30E0091F786 /* AbuKlineMainView.swift */; };
+		3B1D823721DBB30E0091F786 /* AbuKlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820A21DBB30E0091F786 /* AbuKlineView.swift */; };
+		3B1D823821DBB30E0091F786 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820C21DBB30E0091F786 /* Constant.swift */; };
+		3B1D823921DBB30E0091F786 /* KLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D820E21DBB30E0091F786 /* KLineModel.swift */; };
+		3B1D823A21DBB30E0091F786 /* NSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821021DBB30E0091F786 /* NSLayer.swift */; };
+		3B1D823B21DBB30E0091F786 /* NSLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821121DBB30E0091F786 /* NSLabelCell.swift */; };
+		3B1D823C21DBB30E0091F786 /* NSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821221DBB30E0091F786 /* NSLabel.swift */; };
+		3B1D823D21DBB30E0091F786 /* NSTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821321DBB30E0091F786 /* NSTextFiled.swift */; };
+		3B1D823E21DBB30E0091F786 /* KlineQuotaColumnLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821521DBB30E0091F786 /* KlineQuotaColumnLayer.swift */; };
+		3B1D823F21DBB30E0091F786 /* KlineMALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821621DBB30E0091F786 /* KlineMALayer.swift */; };
+		3B1D824021DBB30E0091F786 /* KlineCandelLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821721DBB30E0091F786 /* KlineCandelLayer.swift */; };
+		3B1D824121DBB30E0091F786 /* KlineTimeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821821DBB30E0091F786 /* KlineTimeLayer.swift */; };
+		3B1D824221DBB30E0091F786 /* KLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821A21DBB30E0091F786 /* KLineController.swift */; };
+		3B1D824321DBB30E0091F786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821C21DBB30E0091F786 /* AppDelegate.swift */; };
+		3B1D824421DBB30E0091F786 /* KLineWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821E21DBB30E0091F786 /* KLineWindow.swift */; };
+		3B1D824521DBB30E0091F786 /* KLineWindowContrroler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D821F21DBB30E0091F786 /* KLineWindowContrroler.swift */; };
+		3B1D824621DBB30E0091F786 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D822021DBB30E0091F786 /* main.swift */; };
+		3B1D824721DBB30E0091F786 /* stock30.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D822221DBB30E0091F786 /* stock30.json */; };
+		3B1D824821DBB30E0091F786 /* stock5.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D822321DBB30E0091F786 /* stock5.json */; };
+		3B1D824921DBB30E0091F786 /* stock60.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D822421DBB30E0091F786 /* stock60.json */; };
+		3B1D824A21DBB30E0091F786 /* stockDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D822521DBB30E0091F786 /* stockDay.json */; };
+		3B1D824B21DBB30E0091F786 /* stock15.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D822621DBB30E0091F786 /* stock15.json */; };
+		3B1D824C21DBB30E0091F786 /* stock1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1D822721DBB30E0091F786 /* stock1.json */; };
+		B5BB7DC944FD3F504AA95899 /* Pods_Mac_Kline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CACC6A0DCC13D6136E7D22 /* Pods_Mac_Kline.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B1D81E121DBB0E10091F786 /* Mac-Kline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac-Kline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1D81E821DBB0E20091F786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B1D81ED21DBB0E20091F786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1D81EE21DBB0E20091F786 /* Mac_Kline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac_Kline.entitlements; sourceTree = "<group>"; };
+		3B1D81F621DBB30E0091F786 /* KlineCalculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineCalculate.swift; sourceTree = "<group>"; };
+		3B1D81F721DBB30E0091F786 /* KLineIndexCalculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineIndexCalculate.swift; sourceTree = "<group>"; };
+		3B1D81F921DBB30E0091F786 /* KlineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineButton.swift; sourceTree = "<group>"; };
+		3B1D81FB21DBB30E0091F786 /* NSVIew+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSVIew+Extension.swift"; sourceTree = "<group>"; };
+		3B1D81FC21DBB30E0091F786 /* StringTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTools.swift; sourceTree = "<group>"; };
+		3B1D81FD21DBB30E0091F786 /* NSColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Extension.swift"; sourceTree = "<group>"; };
+		3B1D81FE21DBB30E0091F786 /* NSFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFont.swift; sourceTree = "<group>"; };
+		3B1D81FF21DBB30E0091F786 /* NSBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBezierPath.swift; sourceTree = "<group>"; };
+		3B1D820021DBB30E0091F786 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		3B1D820221DBB30E0091F786 /* KlineCurrentPriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineCurrentPriceView.swift; sourceTree = "<group>"; };
+		3B1D820321DBB30E0091F786 /* KlineVerticalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineVerticalView.swift; sourceTree = "<group>"; };
+		3B1D820421DBB30E0091F786 /* KlinePriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlinePriceView.swift; sourceTree = "<group>"; };
+		3B1D820621DBB30E0091F786 /* MenuConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuConfig.swift; sourceTree = "<group>"; };
+		3B1D820721DBB30E0091F786 /* KlineMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineMenu.swift; sourceTree = "<group>"; };
+		3B1D820921DBB30E0091F786 /* AbuKlineMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbuKlineMainView.swift; sourceTree = "<group>"; };
+		3B1D820A21DBB30E0091F786 /* AbuKlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbuKlineView.swift; sourceTree = "<group>"; };
+		3B1D820C21DBB30E0091F786 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3B1D820E21DBB30E0091F786 /* KLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineModel.swift; sourceTree = "<group>"; };
+		3B1D821021DBB30E0091F786 /* NSLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayer.swift; sourceTree = "<group>"; };
+		3B1D821121DBB30E0091F786 /* NSLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLabelCell.swift; sourceTree = "<group>"; };
+		3B1D821221DBB30E0091F786 /* NSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLabel.swift; sourceTree = "<group>"; };
+		3B1D821321DBB30E0091F786 /* NSTextFiled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTextFiled.swift; sourceTree = "<group>"; };
+		3B1D821521DBB30E0091F786 /* KlineQuotaColumnLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineQuotaColumnLayer.swift; sourceTree = "<group>"; };
+		3B1D821621DBB30E0091F786 /* KlineMALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineMALayer.swift; sourceTree = "<group>"; };
+		3B1D821721DBB30E0091F786 /* KlineCandelLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineCandelLayer.swift; sourceTree = "<group>"; };
+		3B1D821821DBB30E0091F786 /* KlineTimeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineTimeLayer.swift; sourceTree = "<group>"; };
+		3B1D821A21DBB30E0091F786 /* KLineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineController.swift; sourceTree = "<group>"; };
+		3B1D821C21DBB30E0091F786 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B1D821E21DBB30E0091F786 /* KLineWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineWindow.swift; sourceTree = "<group>"; };
+		3B1D821F21DBB30E0091F786 /* KLineWindowContrroler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineWindowContrroler.swift; sourceTree = "<group>"; };
+		3B1D822021DBB30E0091F786 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3B1D822221DBB30E0091F786 /* stock30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock30.json; sourceTree = "<group>"; };
+		3B1D822321DBB30E0091F786 /* stock5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock5.json; sourceTree = "<group>"; };
+		3B1D822421DBB30E0091F786 /* stock60.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock60.json; sourceTree = "<group>"; };
+		3B1D822521DBB30E0091F786 /* stockDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stockDay.json; sourceTree = "<group>"; };
+		3B1D822621DBB30E0091F786 /* stock15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock15.json; sourceTree = "<group>"; };
+		3B1D822721DBB30E0091F786 /* stock1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock1.json; sourceTree = "<group>"; };
+		A3B82B35BE5812D2C6EDF0D0 /* Pods-Mac-Kline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mac-Kline.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mac-Kline/Pods-Mac-Kline.release.xcconfig"; sourceTree = "<group>"; };
+		A6FBA40ED05CBC5B6C6C9103 /* Pods-Mac-Kline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mac-Kline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mac-Kline/Pods-Mac-Kline.debug.xcconfig"; sourceTree = "<group>"; };
+		D3CACC6A0DCC13D6136E7D22 /* Pods_Mac_Kline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mac_Kline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1D81DE21DBB0E10091F786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BB7DC944FD3F504AA95899 /* Pods_Mac_Kline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1D81D821DBB0E10091F786 = {
+			isa = PBXGroup;
+			children = (
+				3B1D81E321DBB0E10091F786 /* Mac-Kline */,
+				3B1D81E221DBB0E10091F786 /* Products */,
+				4D7043129DFC7E2335FDD7D4 /* Pods */,
+				6632413E63079333118168B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1D81E221DBB0E10091F786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D81E121DBB0E10091F786 /* Mac-Kline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1D81E321DBB0E10091F786 /* Mac-Kline */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D821B21DBB30E0091F786 /* AppDelegate */,
+				3B1D821921DBB30E0091F786 /* KLineController */,
+				3B1D81F421DBB30E0091F786 /* KlineView */,
+				3B1D821D21DBB30E0091F786 /* KLineWindowController */,
+				3B1D822121DBB30E0091F786 /* Resource */,
+				3B1D81E821DBB0E20091F786 /* Assets.xcassets */,
+				3B1D81ED21DBB0E20091F786 /* Info.plist */,
+				3B1D81EE21DBB0E20091F786 /* Mac_Kline.entitlements */,
+			);
+			path = "Mac-Kline";
+			sourceTree = "<group>";
+		};
+		3B1D81F421DBB30E0091F786 /* KlineView */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D81F521DBB30E0091F786 /* KLineCaculate */,
+				3B1D81F821DBB30E0091F786 /* AbuButton */,
+				3B1D81FA21DBB30E0091F786 /* Category */,
+				3B1D820121DBB30E0091F786 /* KlineCommonView */,
+				3B1D820521DBB30E0091F786 /* KlineMenu */,
+				3B1D820821DBB30E0091F786 /* KLineView */,
+				3B1D820B21DBB30E0091F786 /* Constant */,
+				3B1D820D21DBB30E0091F786 /* KLineModel */,
+				3B1D820F21DBB30E0091F786 /* NSLable */,
+				3B1D821421DBB30E0091F786 /* KLineLayer */,
+			);
+			path = KlineView;
+			sourceTree = "<group>";
+		};
+		3B1D81F521DBB30E0091F786 /* KLineCaculate */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D81F621DBB30E0091F786 /* KlineCalculate.swift */,
+				3B1D81F721DBB30E0091F786 /* KLineIndexCalculate.swift */,
+			);
+			path = KLineCaculate;
+			sourceTree = "<group>";
+		};
+		3B1D81F821DBB30E0091F786 /* AbuButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D81F921DBB30E0091F786 /* KlineButton.swift */,
+			);
+			path = AbuButton;
+			sourceTree = "<group>";
+		};
+		3B1D81FA21DBB30E0091F786 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D81FB21DBB30E0091F786 /* NSVIew+Extension.swift */,
+				3B1D81FC21DBB30E0091F786 /* StringTools.swift */,
+				3B1D81FD21DBB30E0091F786 /* NSColor+Extension.swift */,
+				3B1D81FE21DBB30E0091F786 /* NSFont.swift */,
+				3B1D81FF21DBB30E0091F786 /* NSBezierPath.swift */,
+				3B1D820021DBB30E0091F786 /* String.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3B1D820121DBB30E0091F786 /* KlineCommonView */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D820221DBB30E0091F786 /* KlineCurrentPriceView.swift */,
+				3B1D820321DBB30E0091F786 /* KlineVerticalView.swift */,
+				3B1D820421DBB30E0091F786 /* KlinePriceView.swift */,
+			);
+			path = KlineCommonView;
+			sourceTree = "<group>";
+		};
+		3B1D820521DBB30E0091F786 /* KlineMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D820621DBB30E0091F786 /* MenuConfig.swift */,
+				3B1D820721DBB30E0091F786 /* KlineMenu.swift */,
+			);
+			path = KlineMenu;
+			sourceTree = "<group>";
+		};
+		3B1D820821DBB30E0091F786 /* KLineView */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D820921DBB30E0091F786 /* AbuKlineMainView.swift */,
+				3B1D820A21DBB30E0091F786 /* AbuKlineView.swift */,
+			);
+			path = KLineView;
+			sourceTree = "<group>";
+		};
+		3B1D820B21DBB30E0091F786 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D820C21DBB30E0091F786 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		3B1D820D21DBB30E0091F786 /* KLineModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D820E21DBB30E0091F786 /* KLineModel.swift */,
+			);
+			path = KLineModel;
+			sourceTree = "<group>";
+		};
+		3B1D820F21DBB30E0091F786 /* NSLable */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D821021DBB30E0091F786 /* NSLayer.swift */,
+				3B1D821121DBB30E0091F786 /* NSLabelCell.swift */,
+				3B1D821221DBB30E0091F786 /* NSLabel.swift */,
+				3B1D821321DBB30E0091F786 /* NSTextFiled.swift */,
+			);
+			path = NSLable;
+			sourceTree = "<group>";
+		};
+		3B1D821421DBB30E0091F786 /* KLineLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D821521DBB30E0091F786 /* KlineQuotaColumnLayer.swift */,
+				3B1D821621DBB30E0091F786 /* KlineMALayer.swift */,
+				3B1D821721DBB30E0091F786 /* KlineCandelLayer.swift */,
+				3B1D821821DBB30E0091F786 /* KlineTimeLayer.swift */,
+			);
+			path = KLineLayer;
+			sourceTree = "<group>";
+		};
+		3B1D821921DBB30E0091F786 /* KLineController */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D821A21DBB30E0091F786 /* KLineController.swift */,
+			);
+			path = KLineController;
+			sourceTree = "<group>";
+		};
+		3B1D821B21DBB30E0091F786 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D821C21DBB30E0091F786 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B1D821D21DBB30E0091F786 /* KLineWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D821E21DBB30E0091F786 /* KLineWindow.swift */,
+				3B1D821F21DBB30E0091F786 /* KLineWindowContrroler.swift */,
+				3B1D822021DBB30E0091F786 /* main.swift */,
+			);
+			path = KLineWindowController;
+			sourceTree = "<group>";
+		};
+		3B1D822121DBB30E0091F786 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B1D822221DBB30E0091F786 /* stock30.json */,
+				3B1D822321DBB30E0091F786 /* stock5.json */,
+				3B1D822421DBB30E0091F786 /* stock60.json */,
+				3B1D822521DBB30E0091F786 /* stockDay.json */,
+				3B1D822621DBB30E0091F786 /* stock15.json */,
+				3B1D822721DBB30E0091F786 /* stock1.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4D7043129DFC7E2335FDD7D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6FBA40ED05CBC5B6C6C9103 /* Pods-Mac-Kline.debug.xcconfig */,
+				A3B82B35BE5812D2C6EDF0D0 /* Pods-Mac-Kline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6632413E63079333118168B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3CACC6A0DCC13D6136E7D22 /* Pods_Mac_Kline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1D81E021DBB0E10091F786 /* Mac-Kline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1D81F121DBB0E20091F786 /* Build configuration list for PBXNativeTarget "Mac-Kline" */;
+			buildPhases = (
+				E19A50135729DE83C87948C5 /* [CP] Check Pods Manifest.lock */,
+				3B1D81DD21DBB0E10091F786 /* Sources */,
+				3B1D81DE21DBB0E10091F786 /* Frameworks */,
+				3B1D81DF21DBB0E10091F786 /* Resources */,
+				EE193694EE1E1D489C6F8227 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac-Kline";
+			productName = "Mac-Kline";
+			productReference = 3B1D81E121DBB0E10091F786 /* Mac-Kline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1D81D921DBB0E10091F786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "阿布";
+				TargetAttributes = {
+					3B1D81E021DBB0E10091F786 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B1D81DC21DBB0E10091F786 /* Build configuration list for PBXProject "Mac-Kline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B1D81D821DBB0E10091F786;
+			productRefGroup = 3B1D81E221DBB0E10091F786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1D81E021DBB0E10091F786 /* Mac-Kline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1D81DF21DBB0E10091F786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1D824B21DBB30E0091F786 /* stock15.json in Resources */,
+				3B1D81E921DBB0E20091F786 /* Assets.xcassets in Resources */,
+				3B1D824721DBB30E0091F786 /* stock30.json in Resources */,
+				3B1D824C21DBB30E0091F786 /* stock1.json in Resources */,
+				3B1D824921DBB30E0091F786 /* stock60.json in Resources */,
+				3B1D824821DBB30E0091F786 /* stock5.json in Resources */,
+				3B1D824A21DBB30E0091F786 /* stockDay.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E19A50135729DE83C87948C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mac-Kline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE193694EE1E1D489C6F8227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mac-Kline/Pods-Mac-Kline-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mac-Kline/Pods-Mac-Kline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1D81DD21DBB0E10091F786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1D823521DBB30E0091F786 /* KlineMenu.swift in Sources */,
+				3B1D823821DBB30E0091F786 /* Constant.swift in Sources */,
+				3B1D823321DBB30E0091F786 /* KlinePriceView.swift in Sources */,
+				3B1D824521DBB30E0091F786 /* KLineWindowContrroler.swift in Sources */,
+				3B1D823A21DBB30E0091F786 /* NSLayer.swift in Sources */,
+				3B1D824321DBB30E0091F786 /* AppDelegate.swift in Sources */,
+				3B1D824221DBB30E0091F786 /* KLineController.swift in Sources */,
+				3B1D823221DBB30E0091F786 /* KlineVerticalView.swift in Sources */,
+				3B1D823721DBB30E0091F786 /* AbuKlineView.swift in Sources */,
+				3B1D822E21DBB30E0091F786 /* NSFont.swift in Sources */,
+				3B1D823421DBB30E0091F786 /* MenuConfig.swift in Sources */,
+				3B1D823D21DBB30E0091F786 /* NSTextFiled.swift in Sources */,
+				3B1D824621DBB30E0091F786 /* main.swift in Sources */,
+				3B1D822821DBB30E0091F786 /* KlineCalculate.swift in Sources */,
+				3B1D824021DBB30E0091F786 /* KlineCandelLayer.swift in Sources */,
+				3B1D823621DBB30E0091F786 /* AbuKlineMainView.swift in Sources */,
+				3B1D822C21DBB30E0091F786 /* StringTools.swift in Sources */,
+				3B1D823021DBB30E0091F786 /* String.swift in Sources */,
+				3B1D823921DBB30E0091F786 /* KLineModel.swift in Sources */,
+				3B1D823B21DBB30E0091F786 /* NSLabelCell.swift in Sources */,
+				3B1D823C21DBB30E0091F786 /* NSLabel.swift in Sources */,
+				3B1D822D21DBB30E0091F786 /* NSColor+Extension.swift in Sources */,
+				3B1D824421DBB30E0091F786 /* KLineWindow.swift in Sources */,
+				3B1D822F21DBB30E0091F786 /* NSBezierPath.swift in Sources */,
+				3B1D823121DBB30E0091F786 /* KlineCurrentPriceView.swift in Sources */,
+				3B1D823F21DBB30E0091F786 /* KlineMALayer.swift in Sources */,
+				3B1D822B21DBB30E0091F786 /* NSVIew+Extension.swift in Sources */,
+				3B1D823E21DBB30E0091F786 /* KlineQuotaColumnLayer.swift in Sources */,
+				3B1D822A21DBB30E0091F786 /* KlineButton.swift in Sources */,
+				3B1D824121DBB30E0091F786 /* KlineTimeLayer.swift in Sources */,
+				3B1D822921DBB30E0091F786 /* KLineIndexCalculate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B1D81EF21DBB0E20091F786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B1D81F021DBB0E20091F786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B1D81F221DBB0E20091F786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FBA40ED05CBC5B6C6C9103 /* Pods-Mac-Kline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mac-Kline/Mac_Kline.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mac-Kline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aicai.Mac-Kline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3B1D81F321DBB0E20091F786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B82B35BE5812D2C6EDF0D0 /* Pods-Mac-Kline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mac-Kline/Mac_Kline.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mac-Kline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aicai.Mac-Kline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1D81DC21DBB0E10091F786 /* Build configuration list for PBXProject "Mac-Kline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1D81EF21DBB0E20091F786 /* Debug */,
+				3B1D81F021DBB0E20091F786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1D81F121DBB0E20091F786 /* Build configuration list for PBXNativeTarget "Mac-Kline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1D81F221DBB0E20091F786 /* Debug */,
+				3B1D81F321DBB0E20091F786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1D81D921DBB0E10091F786 /* Project object */;
+}
