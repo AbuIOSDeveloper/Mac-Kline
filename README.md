@@ -53,6 +53,5 @@ If you see an issue that you'd like to see fixed, the best way to make it happen
 喜欢就star❤️一下吧！
 
 ## 和我交流
-| 二维码 |  说明 |
-| --- | ---  |
-|![](https://diycode.b0.upaiyun.com/photo/2018/6ac660d9a4a36db44c404246ba858862.jpg) 
+ 二维码 
+|![](https://github.com/AbuIOSDeveloper/Mac-Kline/blob/master/WX.png) 
