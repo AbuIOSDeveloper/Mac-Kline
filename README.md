@@ -53,5 +53,4 @@ If you see an issue that you'd like to see fixed, the best way to make it happen
 喜欢就star❤️一下吧！
 
 ## 和我交流
- 二维码 
 ![](https://github.com/AbuIOSDeveloper/Mac-Kline/blob/master/WX.png) 
