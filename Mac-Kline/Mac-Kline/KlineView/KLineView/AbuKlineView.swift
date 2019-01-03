@@ -205,7 +205,7 @@ class AbuKlineView: NSView {
         DispatchQueue.main.async {
             self.candleChartView.updateDataSourece(datasource: datasource,mainType: mainType, subTypes: subTypes, precision: precision)
             self.candleChartView.width =  (self.candleChartView.candleWidth + self.candleChartView.candleSpace) * CGFloat(self.dataSource.count)
-                self.candleChartView.height = (NSScreen.main?.frame.size.height)! - 80 - 80 - 80 - 40
+                self.candleChartView.height = (NSScreen.main?.frame.size.height)! - 80 - 80 - 80 - 15
             self.scrollView.documentView = self.candleChartView
             self.updtaePriceLayout()
             self.candleChartView.reloadKlineView()

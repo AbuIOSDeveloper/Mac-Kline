@@ -286,7 +286,7 @@ extension AbuKlineMainView {
 }
 
 extension AbuKlineMainView {
-    //获取主视图的极值
+    
     func calcuteMaxAndMinValue() {
         var openPriceArray = [Double]()
         var closePriceArray = [Double]()
