@@ -1,5 +1,5 @@
 # Mac-Kline
-Swift 仿富途牛牛Mac版K线
+Swift 仿futu牛牛Mac版K线
 (CAShapelayer + CGMutablePath)绘制K线、鼠标事件、SnapKit适配，完美支持证券、期货、币圈等金融产品K线
 ,非常的流畅，矢量绘制，占用内存少(内存稳定在30M左右)，使用矢量进行填充K线
 
