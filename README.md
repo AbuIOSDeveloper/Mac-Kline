@@ -27,6 +27,9 @@
 
 我会尽力以上需求尽快实现出来去完成它，期待与你见证这一天！
 
+## FT个股行情页面，后续更新
+![image](https://github.com/AbuIOSDeveloper/Mac-Kline/blob/master/MacFT.gif)
+
 ### Requirements
 
 - macOS 10.11+
