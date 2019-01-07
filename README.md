@@ -2,6 +2,9 @@
 ## Swift 仿futu牛牛Mac版K线
 ## (CAShapelayer + CGMutablePath)绘制K线、鼠标事件、SnapKit适配，完美支持证券、期货、币圈等金融产品K线,非常的流畅，矢量绘制，占用内存少(内存稳定在30M左右)，使用矢量进行填充K线
 
+## FT个股行情页面，后续更新
+![image](https://github.com/AbuIOSDeveloper/Mac-Kline/blob/master/MacFT.gif)
+
 ## 1.K线的绘制
 ![image](https://github.com/AbuIOSDeveloper/Mac-Kline/blob/master/K线绘制.png)
 ## 2.指标视图完善
@@ -26,9 +29,6 @@
 ## 8、增加更换主题背景
 
 我会尽力以上需求尽快实现出来去完成它，期待与你见证这一天！
-
-## FT个股行情页面，后续更新
-![image](https://github.com/AbuIOSDeveloper/Mac-Kline/blob/master/MacFT.gif)
 
 ### Requirements
 
